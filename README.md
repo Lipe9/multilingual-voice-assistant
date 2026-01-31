@@ -32,17 +32,3 @@ Suporte Multilingue: O sistema detecta automaticamente o idioma falado.
 Segurança: Implementação de variáveis de ambiente para evitar vazamento de credenciais no GitHub.
 
 Modularidade: Código organizado em funções para facilitar a troca de modelos (ex: trocar gTTS pelas vozes da ElevenLabs ou OpenAI Speech).
-
-Como clonar e testar
-Bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Configure sua .env
-echo "OPENAI_API_KEY='sua_chave_aqui'" > .env
-
-# Execute
-python main.py
