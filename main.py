@@ -4,8 +4,7 @@ from gtts import gTTS
 import os
 
 # 1. Configurações Iniciais
-# Certifique-se de definir sua chave de API da OpenAI nas variáveis de ambiente
-client = OpenAI(api_key="SUA_CHAVE_AQUI")
+client = OpenAI(api_key="CHAVE")
 
 def sistema_conversa_voz(arquivo_audio):
     print("--- Iniciando Processamento ---")
